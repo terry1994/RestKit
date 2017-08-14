@@ -21,7 +21,6 @@
 #import "RKMacros.h"
 #import "RKMapping.h"
 
-#import <RKValueTransformers/RKValueTransformers.h>
 
 @class RKPropertyMapping, RKAttributeMapping, RKRelationshipMapping;
 @protocol RKValueTransforming;
