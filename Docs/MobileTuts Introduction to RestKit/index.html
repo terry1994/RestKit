@@ -57,7 +57,10 @@
 <img src="https://mobiletuts.s3.amazonaws.com/146_RESTKit/frameworks.png" />
 </div>
 </li>
-<li>Switch to the &#8216;Build&#8217; tab in your project inspector. Make sure that your <strong>Configuration</strong> pop-up menu reads <strong>All Configurations</strong> so that your changes will work for all build configurations. </li>
+    <li>Switch to the &#8216;Build&#8217; tab in your project inspector. Make sure that your
+        <strong>Configuration</strong> menuButtonPressed-up menu reads <strong>All Configurations</strong> so that your
+        changes will work for all build configurations.
+    </li>
 <li>Find the <strong>Header Search Paths</strong> setting. Double click and add a new entry. When RestKit is compiled, it will copy all relevant headers to the appropriate location under the /Build directory within the RestKit checkout. You need to add a path to the /Build directory of RestKit, relative to your project file. For example, if you checked the submodule out to the &#8216;Libraries&#8217; subdirectory of your project, your header path would be &#8216;Libraries/RestKit/Build&#8217;. 
 
 Now find the <strong>Other Linker Flags</strong> setting. Double click it and add entries for <strong>-all_load</strong> and <strong>-ObjC</strong>. Your setting should match the screenshot below.

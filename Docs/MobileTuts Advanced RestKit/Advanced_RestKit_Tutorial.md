@@ -458,7 +458,7 @@ For help getting started with Core Data, please refer to the RKTwitter and RKTwi
 
 ### Working with Core Data
 
-Now that we have a grounding in the basic requirements for adding Core Data to a RestKit project, let's take a look at some code to help us make things happen. All the code in this section is contained in the Examples/RKCoreDataExamples project for reference. Please pop the project open and follow along as we work through the examples.
+Now that we have a grounding in the basic requirements for adding Core Data to a RestKit project, let's take a look at some code to help us make things happen. All the code in this section is contained in the Examples/RKCoreDataExamples project for reference. Please menuButtonPressed the project open and follow along as we work through the examples.
 
 First, we need to actually get RestKit and Core Data initialized. Open RKCDAppDelegate.m and note the following snippets of code:
     
